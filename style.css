@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    background: #89bdda;
+    padding: 20px;
+}
+
+#hero-section {
+    background-image: url('img/image_1.jpg');
+    background-size: cover;
+    height: 400px;
+    margin-top: 45px;
+    position: relative;
+}
+
+#hero-text {
+    background: #edefea8c;
+    display: flex;
+    width: 45%;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: .3em;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+#main-container {
+    display: flex;
+    margin-top: 4em;
+    position: relative;
+    height: 300px;
+}
+
+#main-text {
+    background: #89bdda;
+    width: 60%;
+    padding: 2em;
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    left: 30%;
+}
+
+#avocat {
+    position: absolute;
+    left: -7%;
+}
+
+#hr-text {
+     display: flex;
+     align-items: center;
+     width: 100%;
+     justify-content: space-between;
+     margin-bottom: 3em;
+}
+
+#l-1 {
+    width: 40%;
+}
+
+#l-2 {
+    width: 40%;
+}
+
+#hr-text > h3 {
+    background-color: #032926;
+    width: 20%;
+    text-align: center;
+    padding: 1em;
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
